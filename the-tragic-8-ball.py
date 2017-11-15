@@ -18,7 +18,7 @@ def question():
     print()
     delay_print('. . . . .')
     delay_print(replies[randint(0,8)])
-    time.sleep(2)
+    time.sleep(1)
     end()
 
 def end():

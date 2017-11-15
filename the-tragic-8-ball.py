@@ -13,7 +13,7 @@ def delay_print(s):
     print()
 
 def question():
-    delay_print('What\'s your question?')
+    delay_print('What is your question?')
     question = input()
     print()
     delay_print('. . . . .')
@@ -36,5 +36,5 @@ def end():
         end()
 
 delay_print('I am the Tragic 8-Ball.')
-
+time.sleep(1)
 question()

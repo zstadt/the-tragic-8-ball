@@ -2,7 +2,7 @@ import time
 from random import randint
 import sys
 
-replies = ['Uh... maybe?', 'Go ask your mother.', 'Probably not.', 'With your luck?! Hahahahahahaha (breath) hahahahahahaha', 'What do you think?', 'I have to be honest, it doesn\'t look good.', 'How would I know that?', 'That kind of question has gotten you to where you are today.', 'Are you serious?']
+replies = ['Uh... maybe?', 'Go ask someone else.', 'Probably not.', 'With your luck?! Hahahahahahaha', 'What do you think?', 'I have to be honest, it doesn\'t look good.', 'How would I know that?', 'That seems like the kind of question you would ask.' 'Are you serious?']
 
 def delay_print(s):
     for c in s:
